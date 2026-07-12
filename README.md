@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Year 10 Digital Technologies
 
-To start the slide show:
+## Slides using Slidev
 
-- `pnpm install`
-- `pnpm run dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).
+Hosted at [https://mrmatho.github.io/10dt-slides](https://mrmatho.github.io/10dt-slides)
