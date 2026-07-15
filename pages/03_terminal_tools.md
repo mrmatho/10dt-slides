@@ -202,9 +202,33 @@ layout: center
 ---
 
 # You Do
-Open `L3_YourTurn` — search for a different keyword, count the matches, then run a networking check on a given address and report what you find
+
+- Open `L3_YourTurn` — search for a different keyword, count the matches, then run a networking check on a given address and report what you find
+
+## Extend  Multi-Keyword Search + a Networking Judgement Call
+
+- Search L3_YourTurn for files containing "ERROR" or "WARNING" and count the combined matches
+- Run `nslookup` and `ping` against `coles.com.au`
+- Explain in one sentence what the results mean
 
 ---
+layout: center
+---
 
-# Exit check
-Match each tool (grep/findstr, wc/find /c, ping, tracert/traceroute, nslookup) to the problem it solves
+# Exit Check
+
+Match each tool to the problem it solves:
+
+| Tool | Problem |
+|---|---|
+| 1. `grep` / `findstr` | A. Shows every hop between you and a website |
+| 2. `wc -l` / `find /c /v ""` | B. Searches inside files for a specific word |
+| 3. `ping` | C. Tells you whether a host is reachable right now |
+| 4. `tracert` / `traceroute` | D. Counts how many lines or matches there are |
+| 5. `nslookup` | E. Looks up the IP address behind a domain name |
+
+<v-click>
+
+**Answer:** 1-B, 2-D, 3-C, 4-A, 5-E
+
+</v-click>

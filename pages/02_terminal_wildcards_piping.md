@@ -144,8 +144,6 @@ layout: center
 # We Do
 Open your terminal in `L2_Practice`
 
----
-
 # Task
 
 - List all `.jpg` files using a wildcard
@@ -167,7 +165,29 @@ layout: center
 # You Do
 Open `L2_YourTurn` — different folder, different file type, same three-step chain
 
+## Extend
+Using L2_YourTurn,  build a manifest of every file that does not match a given wildcard (.mp3), using negation — `findstr /v` (Windows) or `grep -v` (Unix) — inside the same pipe chain, and count how many were excluded.
+
+---
+layout: center
 ---
 
-# Exit check
-Predict the output of a 3-stage pipe chain
+# Exit Check
+
+A folder contains: `img1.png`, `img2.png`, `img10.png`, `draft.txt`, `final.txt`, `data.csv`
+
+What does this print, and what does each stage do?
+
+```powershell
+dir /b | findstr .txt | find /c /v ""
+```
+
+```bash
+ls | grep .txt | wc -l
+```
+
+<v-click>
+
+**Answer:** 2 — the chain lists all files, filters down to the ones containing ".txt", then counts how many are left.
+
+</v-click>

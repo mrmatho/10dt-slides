@@ -73,7 +73,6 @@ pwd
 ls
 # Documents  Photos  old_file.txt
 ```
-`pwd` shows your current location, `dir`/`ls` shows what is in that folder.
 
 ---
 
@@ -134,12 +133,6 @@ layout: center
 # Check
 `ls` shows 3 files. `ls -a` shows 5.
 What are those extra 2 files likely to be?
-
-<v-clicks>
-
-*Those files will be hidden files - the are usually configuration files that are not meant to be edited by the user. They are hidden by default to avoid accidental changes.*
-
-</v-clicks>
 
 ---
 
@@ -210,11 +203,10 @@ layout: center
 ---
 
 # We Do
+
 Open your terminal in `L1_Practice`
 
----
-
-# Target structure
+## Target structure
 
 - L1_Practice/
   - Photos/
@@ -236,25 +228,39 @@ layout: center
 You're in `L1_Practice/Photos/archive`.
 What single command gets you back to `L1_Practice`?
 
-
 ---
 layout: center
 ---
 
 # You Do
-
-Open `L1_YourTurn` — reach the target structure below (also on lesson plan).
-This one needs a multi-level `cd`, a flag, and a recursive copy.
+L1_YourTurn - reach the target structure below.
+*This one needs a multi-level `cd`, a flag, and a recursive copy.*
 
 ## Target Structure (L1_YourTurn)
 
-- Media/ folder (renamed from media_raw), containing clip1.txt, clip2.txt, and an old_clips/ folder with clip0.txt inside
-- Media_backup/ folder — a full copy of Media, including the old_clips/ folder
-- Assignments/ folder, containing one new file
-- stray_notes.txt deleted
+- Photos/ folder, containing an archive/ folder with img_old.txt inside
+- Photos_backup/ folder — a full copy of Photos, including the archive/ folder
+- Documents/ folder, containing notes.txt
+- old_file.txt deleted; photos_unsorted renamed to Photos
+
+## Extend: Use absolute paths
+
+Repeat the L1_YourTurn task, but this time cd is banned — every command must use the full path from the drive root (e.g. `mkdir C:\Users\Student\L1_YourTurn\Assignments` instead of navigating in first)
 
 ---
 
 # Exit check
 
-Predict the output — 3 questions, including one on what a flag does.
+1. You're in C:\Users\Student\Documents\Reports. What single command takes you directly back to C:\Users\Student?
+2. A folder contains report.txt, report_old.txt, and a hidden file called .config. Running dir (or ls) shows 2 files. What would dir /a (or ls -a) show, and why?
+3. You run mkdir Backup then xcopy Photos Backup /e /i (or cp -r Photos Backup). What does the Backup folder contain afterwards?
+
+<v-clicks>
+
+**Answers:**
+
+1. cd ..\.. (Windows) / cd ../.. (Unix) — up two levels in one command.
+2. 3 files — the flag reveals hidden files like .config that are normally left out of the listing.
+3. A full copy of everything inside Photos, including any subfolders.
+
+</v-clicks>
