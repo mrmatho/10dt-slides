@@ -8,12 +8,15 @@ background: https://cover.sli.dev
 title: 10 Digital Technologies
 info: |
   ## Year 10 Digital Technologies
-  Slides for the year
-
-  Learn more at [Sli.dev](https://sli.dev)
+  Slides for the semester
 # apply UnoCSS classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
+defaults:
+  layout: center
+  hideInToc: true
+  transition: fade
+  zoom: 1.3
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
@@ -28,11 +31,12 @@ editable: true
 
 # Welcome to Year 10 Digital Technologies
 
-<ToC minDepth = '1' maxDepth='1' />
+<Toc minDepth = '1' maxDepth='3' />
 
 ---
 layout: default
 zoom: 1.4
+hideInToc: false
 ---
 
 # Expectations for the subject
@@ -86,6 +90,7 @@ We have some flexibility, but here is the overview of what should be covered thi
 ---
 layout: default
 zoom: 1.2
+hideInToc: false
 ---
 
 # Files, File Management and the Terminal
@@ -93,3 +98,20 @@ zoom: 1.2
 Our first topic focuses on understanding files and file management as well as learning how to use a command-line interface (CLI) or terminal to navigate and manipulate files.
 
 Today I just need a starting point from you - complete the Quiz on the lesson plan as a pre-test
+
+---
+src: ./pages/01_terminal.md
+hide: false
+---
+
+---
+src: ./pages/02_terminal_wildcards_piping.md
+hide: false
+---
+
+---
+src: ./pages/03_terminal_tools.md
+hide: false
+---
+
+---
