@@ -230,6 +230,7 @@ What single command gets you back to `L1_Practice`?
 
 ---
 layout: center
+zoom: 0.9
 ---
 
 # You Do
