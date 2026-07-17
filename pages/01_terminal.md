@@ -1,6 +1,7 @@
 ---
 theme: default
-title: Lesson 1 - Navigating and Managing Files
+title: Navigating and Managing Files
+hideInToc: false
 ---
 
 # Introduction to the Command Line
@@ -17,7 +18,7 @@ title: Lesson 1 - Navigating and Managing Files
 
 ---
 
-# Two versions today
+# Two versions Powershell (Windows) and bash (Unix-style) 
 
 ```powershell
 # Windows (PowerShell)
@@ -60,10 +61,10 @@ Which of these lists folder contents?
 
 ```powershell
 pwd
-# C:\Users\Student
+# shows current path (displayed as a Path table)
 
 dir
-# Documents  Photos  old_file.txt
+# lists Documents, Photos, old_file.txt (as a formatted table with size/date columns)
 ```
 
 ```bash
@@ -115,8 +116,8 @@ Go up two levels, or straight into a nested folder, in one command.
 Extra switches change how a command behaves.
 
 ```powershell
-dir /a
-dir /s
+dir -Force
+dir -Recurse
 ```
 
 ```bash
@@ -124,7 +125,7 @@ ls -a
 ls -R
 ```
 
-`/a` and `-a` show hidden files. `/s` and `-R` include everything inside subfolders too.
+`-Force` and `-a` show hidden files. `-Recurse` and `-R` include everything inside subfolders too. Both shells use a dash before the flag name — just different flag names.
 
 ---
 layout: center
@@ -140,7 +141,7 @@ What are those extra 2 files likely to be?
 
 ```powershell
 mkdir Photos
-type nul > notes.txt
+New-Item notes.txt -ItemType File
 ```
 
 ```bash
@@ -173,14 +174,14 @@ Unix-style uses `mv` for both moving **and** renaming.
 A plain `copy`/`cp` only handles one file. For a whole folder:
 
 ```powershell
-xcopy Photos Photos_backup /e /i
+Copy-Item Photos Photos_backup -Recurse
 ```
 
 ```bash
 cp -r Photos Photos_backup
 ```
 
-`/e` and `-r` mean "include everything inside, including subfolders."
+`-Recurse` and `-r` mean "include everything inside, including subfolders."
 
 ---
 
@@ -188,7 +189,7 @@ cp -r Photos Photos_backup
 
 ```powershell
 del old_file.txt
-rmdir /s Photos
+rmdir Photos -Recurse -Force
 type notes.txt
 ```
 
@@ -203,16 +204,39 @@ layout: center
 ---
 
 # We Do
-
 Open your terminal in `L1_Practice`
 
-## Target structure
+---
+zoom: 0.9
+layout: two-cols-header
+---
+
+# Do Together
+
+::left::
+
+### Existing structure:
 
 - L1_Practice/
   - Photos/
+    - multiple photo files
+    - archive/
+      - img_old.txt
+  - Documents/
+    - notes.txt
+
+
+::right::
+
+### Target structure:
+
+- L1_Practice/
+  - Photos/
+    - multiple photo files
     - archive/
       - img_old.txt
   - Photos_backup/
+    - multiple photo files
     - archive/
       - img_old.txt
   - Documents/
@@ -228,40 +252,89 @@ layout: center
 You're in `L1_Practice/Photos/archive`.
 What single command gets you back to `L1_Practice`?
 
+
+---
+zoom: 0.9
+layout: two-cols-header
+---
+
+# Your Turn
+
+::left::
+
+### Existing structure:
+
+- L1_YourTurn/
+  - stray_notes.txt
+  - drafts/
+    - essay.txt
+  - media_raw/
+    - clip1.txt
+    - clip2.txt
+    - old_clips/
+      - clip0.txt
+
+::right::
+
+### Target structure:
+
+- L1_YourTurn/
+  - Media/
+    - clip1.txt
+    - clip2.txt
+    - old_clips/
+      - clip0.txt
+  - Media_backup/
+    - clip1.txt
+    - clip2.txt
+    - old_clips/
+      - clip0.txt
+  - Assignments/
+    - assignment1.txt
+
+(`stray_notes.txt` deleted, `media_raw` renamed to `Media`, `Media_backup` created as a full copy, `Assignments` created with a new file inside)
+
 ---
 layout: center
-zoom: 0.9
 ---
 
-# You Do
-L1_YourTurn - reach the target structure below.
-*This one needs a multi-level `cd`, a flag, and a recursive copy.*
+# Exit Check — Question 1
 
-## Target Structure (L1_YourTurn)
+You're in `C:\Users\Student\Documents\Reports`.
+What single command takes you directly back to `C:\Users\Student`?
 
-- Photos/ folder, containing an archive/ folder with img_old.txt inside
-- Photos_backup/ folder — a full copy of Photos, including the archive/ folder
-- Documents/ folder, containing notes.txt
-- old_file.txt deleted; photos_unsorted renamed to Photos
+<v-click>
 
-## Extend: Use absolute paths
+**Answer:** `cd ..\..` (Windows) / `cd ../..` (Unix) — up two levels in one command.
 
-Repeat the L1_YourTurn task, but this time cd is banned — every command must use the full path from the drive root (e.g. `mkdir C:\Users\Student\L1_YourTurn\Assignments` instead of navigating in first)
+</v-click>
 
 ---
+layout: center
+---
 
-# Exit check
+# Exit Check — Question 2
 
-1. You're in C:\Users\Student\Documents\Reports. What single command takes you directly back to C:\Users\Student?
-2. A folder contains report.txt, report_old.txt, and a hidden file called .config. Running dir (or ls) shows 2 files. What would dir /a (or ls -a) show, and why?
-3. You run mkdir Backup then xcopy Photos Backup /e /i (or cp -r Photos Backup). What does the Backup folder contain afterwards?
+A folder contains `report.txt`, `report_old.txt`, and a hidden file called `.config`.
+Running `dir` (or `ls`) shows 2 files. What would `dir -Force` (or `ls -a`) show, and why?
 
-<v-clicks>
+<v-click>
 
-**Answers:**
+**Answer:** 3 files — the flag reveals hidden files like `.config` that are normally left out of the listing.
 
-1. cd ..\.. (Windows) / cd ../.. (Unix) — up two levels in one command.
-2. 3 files — the flag reveals hidden files like .config that are normally left out of the listing.
-3. A full copy of everything inside Photos, including any subfolders.
+</v-click>
 
-</v-clicks>
+---
+layout: center
+---
+
+# Exit Check — Question 3
+
+You run `mkdir Backup` then `Copy-Item Photos Backup -Recurse` (or `cp -r Photos Backup`).
+What does the `Backup` folder contain afterwards?
+
+<v-click>
+
+**Answer:** A full copy of everything inside `Photos`, including any subfolders.
+
+</v-click>

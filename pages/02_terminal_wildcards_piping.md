@@ -1,22 +1,11 @@
 ---
 theme: default
-title: Lesson 2 - Wildcards, Redirection and Piping
+title: Terminal Wildcards, Redirection and Piping
+hideInToc: false
 ---
 
 # Introduction to the Command Line
-
 ## Lesson 2: Wildcards, Redirection and Piping
-
----
-
-# Recap: fix the broken command
-
-```powershell
-cd Documents
-di
-```
-
-What's wrong here?
 
 ---
 
@@ -55,7 +44,6 @@ layout: center
 ---
 
 # Check
-
 Folder contains: img1.txt, img2.txt, img10.txt, notes.doc
 What does `ls img?.txt` match?
 
@@ -66,7 +54,7 @@ What does `ls img?.txt` match?
 `>` creates the file, or overwrites it completely if it exists.
 
 ```powershell
-dir > list.txt
+dir -Name > list.txt
 ```
 
 ```bash
@@ -107,7 +95,7 @@ A pipe (`|`) sends the output of one command straight into the next.
 - B receives A's output as its input
 
 ```powershell
-dir /b | findstr .txt
+dir -Name | findstr .txt
 ```
 
 ```bash
@@ -121,7 +109,7 @@ ls | grep .txt
 Pipes can be chained as many times as needed.
 
 ```powershell
-dir /b | findstr .txt | find /c /v ""
+dir -Name | findstr .txt | find /c /v ""
 ```
 
 ```bash
@@ -144,29 +132,61 @@ layout: center
 # We Do
 Open your terminal in `L2_Practice`
 
-# Task
-
-- List all `.jpg` files using a wildcard
-- Redirect a full folder listing into `manifest.txt`
-- Pipe that listing to find just the `.jpg` entries
-- Chain a third command to count them
-
 ---
-layout: center
+zoom: 0.9
+layout: two-cols-header
 ---
 
-# Check
-Before you run it — how many `.jpg` files do you expect the chain to report?
+# Do Together
+
+::left::
+
+### Starting files (L2_Practice):
+
+- photo1.jpg, photo2.jpg, photo10.jpg
+- notes.txt
+- report_1.txt, report_2.txt, report_10.txt
+- data.csv
+
+::right::
+
+### Steps — same question, three ways:
+
+1. Use a wildcard to list the `.jpg` files
+2. Redirect a full folder listing into `manifest.txt`
+3. Pipe that listing to filter for `.jpg` entries — same answer as Step 1, different technique
+4. Chain a count command onto that pipe
+
+We're answering "which files are `.jpg`?" three different ways — notice which method you'd actually reach for in each situation.
 
 ---
-layout: center
+zoom: 0.9
+layout: two-cols-header
 ---
 
-# You Do
-Open `L2_YourTurn` — different folder, different file type, same three-step chain
+# Your Turn
 
-## Extend
-Using L2_YourTurn,  build a manifest of every file that does not match a given wildcard (.mp3), using negation — `findstr /v` (Windows) or `grep -v` (Unix) — inside the same pipe chain, and count how many were excluded.
+::left::
+
+### Starting files (L2_YourTurn):
+
+- track1.mp3, track2.mp3, track10.mp3
+- lyrics.txt
+- review_1.txt, review_2.txt, review_10.txt
+- playlist.csv
+
+::right::
+
+### Steps:
+
+1. List all `.mp3` files using a wildcard
+2. Redirect a full folder listing into `manifest.txt`
+3. Pipe that listing to find just the `.mp3` entries
+4. Chain a third command to count them
+
+### Extend:
+
+- Move into a folder in your Documents and find out how many `.docx` files you have, using the different methods you just learned.
 
 ---
 layout: center
@@ -179,7 +199,7 @@ A folder contains: `img1.png`, `img2.png`, `img10.png`, `draft.txt`, `final.txt`
 What does this print, and what does each stage do?
 
 ```powershell
-dir /b | findstr .txt | find /c /v ""
+dir -Name | findstr .txt | find /c /v ""
 ```
 
 ```bash

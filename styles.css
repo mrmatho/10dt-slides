@@ -1,0 +1,29 @@
+li {
+    margin-bottom: 0.5em;
+}
+
+.slidev-layout th {
+    font-weight: bold;
+    background-color: #777;
+    color: white;
+}
+
+/* Enhanced blockquote styling */
+.slidev-layout blockquote  {
+    border-left: 4px solid #3b82f6;
+    background-color: rgba(59, 130, 246, 0.2);
+    padding: 0.2rem 1rem 0.5rem 1rem;
+    color: #4f5a6b;
+    line-height: 1.6;
+    font-size: 1.25rem;
+    margin: 10px;
+}
+
+.slidev-layout h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.slidev-layout ol li {
+    list-style-type: decimal;
+}

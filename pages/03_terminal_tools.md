@@ -1,6 +1,7 @@
 ---
 theme: default
-title: Lesson 3 - Tools Worth Knowing
+title: Terminal Tools Worth Knowing
+hideInToc: false
 ---
 
 # Introduction to the Command Line
@@ -62,7 +63,7 @@ Finds matching lines, then counts them — same pipe idea from Lesson 2.
 # Sorting output
 
 ```powershell
-dir /o:-d
+dir | sort LastWriteTime -Descending
 ```
 
 ```bash
@@ -153,14 +154,14 @@ nslookup google.com
 # Fetching a page directly
 
 ```powershell
-curl https://example.com
+curl.exe https://example.com
 ```
 
 ```bash
 curl https://example.com
 ```
 
-No browser needed — useful for automation and testing.
+No browser needed — useful for automation and testing. (On Windows, `curl.exe` — not just `curl` — since PowerShell has its own built-in `curl` shortcut that behaves differently.)
 
 ---
 layout: center
@@ -184,11 +185,26 @@ ping -c 4 google.com | grep time
 Filters ping's output down to the useful line — same piping skill, new context.
 
 ---
-layout: center
+zoom: 0.9
+layout: two-cols-header
 ---
 
-# We Do
-Open `L3_Practice` — find every file containing "URGENT," by hand first, then with a search tool
+# Do Together
+
+::left::
+
+### Starting files (L3_Practice):
+
+- 24 short text files (memo_1.txt – memo_24.txt)
+- Some of them contain the word "URGENT"
+
+::right::
+
+### Steps:
+
+1. Find every file containing "URGENT" — by opening each file manually
+2. Now find them again using `findstr` / `grep`
+3. Compare: how long did each approach take?
 
 ---
 layout: center
@@ -198,18 +214,27 @@ layout: center
 Which was faster — and would that gap get bigger with 200 files instead of 20?
 
 ---
-layout: center
+zoom: 0.9
+layout: two-cols-header
 ---
 
-# You Do
+# Your Turn
 
-- Open `L3_YourTurn` — search for a different keyword, count the matches, then run a networking check on a given address and report what you find
+::left::
 
-## Extend  Multi-Keyword Search + a Networking Judgement Call
+### Starting files (L3_YourTurn):
 
-- Search L3_YourTurn for files containing "ERROR" or "WARNING" and count the combined matches
-- Run `nslookup` and `ping` against `coles.com.au`
-- Explain in one sentence what the results mean
+- 18 short text files (log_1.txt – log_18.txt)
+- 5 of them contain the word "ERROR"
+
+::right::
+
+### Steps:
+
+1. Search for files containing "ERROR" using `findstr` / `grep`
+2. Count how many matches you found
+3. Run a networking check on the address your teacher gives you
+4. Report what you find
 
 ---
 layout: center
