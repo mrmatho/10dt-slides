@@ -76,6 +76,8 @@ dir /b Images | find /c /v "" >> log.txt
 echo Sorting complete >> log.txt
 ```
 
+**Note:** `find /c /v ""` counts the number of lines in the output, which works because we're using a `.bat` file rather than Powershell. In PowerShell, you would use `Measure-Object` instead.
+
 ---
 
 # Building a real script (Unix-style)
@@ -113,7 +115,7 @@ layout: two-cols-header
 
 ::right::
 
-### Target result:
+### Target result
 
 - Images/ folder containing all 4 .jpg files
 - Documents/ folder containing all 4 .txt files

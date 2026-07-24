@@ -115,3 +115,18 @@ hide: false
 ---
 
 ---
+src: ./pages/04_terminal_scripting.md
+hide: false
+---
+
+---
+src: ./pages/05_terminal_advanced_scripting.md
+hide: false
+---
+
+---
+src: ./pages/06_terminal_process_management.md
+hide: false
+---
+
+---

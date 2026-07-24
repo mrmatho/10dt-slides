@@ -254,7 +254,7 @@ What single command gets you back to `L1_Practice`?
 
 
 ---
-zoom: 0.9
+zoom: 0.8
 layout: two-cols-header
 ---
 

@@ -1,7 +1,6 @@
 ---
 theme: default
-title: Terminal Tools Worth Knowing
-hideInToc: false
+title: Lesson 3 - Tools Worth Knowing
 ---
 
 # Introduction to the Command Line
@@ -35,7 +34,7 @@ File Explorer can't easily search *inside* many files at once — this does it i
 # Counting lines or matches
 
 ```powershell
-find /c /v "" file.txt
+Get-Content file.txt | Measure-Object -Line
 ```
 
 ```bash
@@ -49,7 +48,7 @@ Counts lines in a file — useful combined with a search, using a pipe.
 # Search + count together
 
 ```powershell
-findstr "error" *.txt | find /c /v ""
+findstr "error" *.txt | Measure-Object -Line
 ```
 
 ```bash
@@ -195,8 +194,8 @@ layout: two-cols-header
 
 ### Starting files (L3_Practice):
 
-- 24 short text files (memo_1.txt – memo_24.txt)
-- Some of them contain the word "URGENT"
+- 24 short text files (memo_1.txt to memo_24.txt)
+- 6 of them contain the word "URGENT"
 
 ::right::
 
@@ -224,7 +223,7 @@ layout: two-cols-header
 
 ### Starting files (L3_YourTurn):
 
-- 18 short text files (log_1.txt – log_18.txt)
+- 18 short text files (log_1.txt to log_18.txt)
 - 5 of them contain the word "ERROR"
 
 ::right::
@@ -247,7 +246,7 @@ Match each tool to the problem it solves:
 | Tool | Problem |
 |---|---|
 | 1. `grep` / `findstr` | A. Shows every hop between you and a website |
-| 2. `wc -l` / `find /c /v ""` | B. Searches inside files for a specific word |
+| 2. `wc -l` / `Measure-Object -Line` | B. Searches inside files for a specific word |
 | 3. `ping` | C. Tells you whether a host is reachable right now |
 | 4. `tracert` / `traceroute` | D. Counts how many lines or matches there are |
 | 5. `nslookup` | E. Looks up the IP address behind a domain name |
