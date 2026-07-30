@@ -10,7 +10,7 @@ info: |
   ## Year 10 Digital Technologies
   Slides for the semester
 # apply UnoCSS classes to the current slide
-class: text-center
+class: ns-c-tight
 # https://sli.dev/features/drawing
 defaults:
   layout: center
@@ -31,7 +31,7 @@ editable: true
 
 # Welcome to Year 10 Digital Technologies
 
-<Toc minDepth = '1' maxDepth='3' />
+<Toc minDepth = '1' maxDepth='3' columns="2" />
 
 ---
 layout: default
@@ -131,6 +131,11 @@ hide: false
 
 ---
 src: ./pages/07_cybersecurity_intro.md
+hide: false
+---
+
+---
+src: ./pages/08_authentication.md
 hide: false
 ---
 
