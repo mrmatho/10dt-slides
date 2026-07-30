@@ -156,6 +156,18 @@ Find a provider of MFA, and identify the different types of MFA they offer. (5 m
 </div>
 
 ---
+layout: center
+---
+
+# What makes a secure password policy for an organisation?
+
+- Sensible password length and complexity requirements
+  - Balance between security and usability
+- Regular password changes (but not too frequent)
+- Multi-factor authentication (MFA) wherever possible
+- Education and awareness for users about password security
+
+---
 layout: two-cols-header
 ---
 
