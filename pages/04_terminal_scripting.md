@@ -100,7 +100,7 @@ layout: center
 Before running — how many lines will end up in `log.txt`?
 
 ---
-zoom: 0.9
+
 layout: two-cols-header
 ---
 
