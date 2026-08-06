@@ -26,6 +26,7 @@ hideInToc: false
 
 ---
 layout: center
+zoom: 0.9
 ---
 
 # Attacks on Passwords
