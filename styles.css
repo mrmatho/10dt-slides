@@ -44,3 +44,10 @@ li {
     font-size: 1.25rem;
     margin: 10px;
 }
+
+strong {
+    --uno: 'bg-yellow-200 dark:bg-purple-800';
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.3rem;
+}
