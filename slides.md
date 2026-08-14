@@ -26,7 +26,7 @@ transition: fade
 # enable Comark Syntax: https://comark.dev/syntax/markdown
 comark: true
 layout: default
-editable: true
+selectable: true
 ---
 
 # Welcome to Year 10 Digital Technologies

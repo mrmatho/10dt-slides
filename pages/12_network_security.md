@@ -1,5 +1,6 @@
 ---
 layout: center
+hideInToc: false
 ---
 
 # Networks and Network Security
@@ -84,9 +85,9 @@ Threats to network security:
 
 graph LR
 
-A[Device] <--> B[Gateway/Router]
-D[Server] <--> B
-B <--> C[Internet]
+A([Device]) <--> B([Gateway/Router])
+D([Server]) <--> B
+B <--> C([Internet])
 A <--> D
 ```
 
@@ -132,11 +133,11 @@ Match the mitigation techniques with the threats they are designed to protect ag
 layout: center
 ---
 
-# Case Study
+# Case Study Questions
 
-Freddy's Fast Food is a popular fast-food chain that has recently experienced a data breach. The breach was caused by a hacker who exploited a vulnerability in the company's network. The hacker was able to gain access to sensitive customer information, including names, addresses, and credit card numbers.
+> Freddy's Fast Food is a popular fast-food chain that has recently experienced a data breach. The breach was caused by a hacker who exploited a vulnerability in the company's network. The hacker was able to gain access to sensitive customer information, including names, addresses, and credit card numbers.
 
 1. What network vulnerabilities may have contributed to the data breach at Freddy's Fast Food?
 2. What network security threats may have been involved in the data breach?
-3. Identify the most relevant mitigation technique Freddy's Fast Food could implement to prevent future data breaches?
+3. Identify a relevant mitigation technique Freddy's Fast Food could implement to prevent future data breaches. Identify one technique that would be less effective in this scenario and explain why.
 4. How can Freddy's Fast Food educate its employees about network security best practices to reduce the risk of future breaches?
