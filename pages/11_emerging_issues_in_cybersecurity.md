@@ -1,6 +1,6 @@
 ---
 theme: default
-title: Phishing and Social Engineering
+title: Emerging Issues in Cybersecurity
 hideInToc: false
 ---
 
@@ -82,4 +82,15 @@ class: ns-c-tight
 - **AI Agent**: An application of generative AI that autonomously performs tasks on behalf of a user. 
   - Agents differ from chatbots in that they use software tools to perform tasks, rather than just responding to user input.
 - **API**: Application Programming Interface, a set of rules and protocols that allows different software applications to communicate with each other.
+
+Read through the first two pages and highlight any other important vocabulary terms. 
+
+---
+layout: center
+---
+
+# Complete the questions
+
+- Use the "Identifying the Important Information" questions to identify the vulnerabilities, threats, and risks in this case study.
+- Once you have completed the first set of questions, repeat for pages 3 & 4. Be sure to clarify any vocabulary terms you are unsure of.
 
