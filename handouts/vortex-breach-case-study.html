@@ -1,0 +1,209 @@
+<title>The Vortex Breach</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root {
+    --paper: #faf9f5;
+    --paper-raised: #ffffff;
+    --ink: #1e2029;
+    --ink-soft: #52556a;
+    --ink-faint: #83869c;
+    --accent: #5b3df0;
+    --accent-soft: #efebff;
+    --accent-line: #d8cffb;
+    --rule: #ddd8cc;
+  }
+
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark) {
+      --paper: #17161d;
+      --paper-raised: #1f1e27;
+      --ink: #edebf5;
+      --ink-soft: #b7b5c8;
+      --ink-faint: #86839c;
+      --accent: #a48cff;
+      --accent-soft: #26203f;
+      --accent-line: #40355f;
+      --rule: #302f3a;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #17161d;
+    --paper-raised: #1f1e27;
+    --ink: #edebf5;
+    --ink-soft: #b7b5c8;
+    --ink-faint: #86839c;
+    --accent: #a48cff;
+    --accent-soft: #26203f;
+    --accent-line: #40355f;
+    --rule: #302f3a;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    font-size: 14.5px;
+    line-height: 1.52;
+    margin: 0;
+    padding: 2.4rem 1.25rem 4rem;
+  }
+
+  .sheet { max-width: 740px; margin: 0 auto; }
+
+  .masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 0.8rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .masthead .kicker {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.66rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1.02;
+    margin: 0.18rem 0 0;
+    text-wrap: balance;
+  }
+
+  .masthead-meta {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.66rem;
+    color: var(--ink-faint);
+    text-align: right;
+    line-height: 1.55;
+    white-space: nowrap;
+  }
+
+  h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin: 1.5rem 0 0.5rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+  }
+  h2::after { content: ""; flex: 1; height: 1px; background: var(--rule); transform: translateY(-0.3em); }
+
+  p { margin: 0 0 0.62rem; color: var(--ink); max-width: 68ch; }
+  p:last-child { margin-bottom: 0; }
+  .lede { color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 0.3rem; }
+
+  .findings { display: flex; flex-direction: column; gap: 0.55rem; }
+  .findings p { font-size: 0.92rem; color: var(--ink-soft); }
+  .findings p strong { color: var(--ink); font-weight: 600; }
+
+  .timeline { list-style: none; margin: 0.2rem 0 0; padding: 0; display: flex; flex-direction: column; gap: 0.55rem; border-left: 2px solid var(--rule); }
+  .timeline li {
+    position: relative;
+    padding: 0 0 0 1.05rem;
+    font-size: 0.9rem;
+    color: var(--ink-soft);
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .timeline li::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 0.42em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--paper);
+    border: 2px solid var(--accent);
+  }
+  .timeline li strong { color: var(--ink); font-weight: 600; }
+
+  footer {
+    margin-top: 1.8rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--rule);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.6rem;
+    color: var(--ink-faint);
+    letter-spacing: 0.03em;
+  }
+
+  @media (max-width: 620px) {
+    .masthead { flex-direction: column; align-items: flex-start; }
+    .masthead-meta { text-align: left; }
+  }
+
+  @media print {
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body { padding: 0; font-size: 10.3pt; background: var(--paper); }
+    @page { size: A4; margin: 12mm 15mm; }
+    h2 { break-after: avoid; }
+    .masthead { break-after: avoid; }
+  }
+</style>
+
+<div class="sheet">
+
+  <div class="masthead">
+    <div>
+      <div class="kicker">Case Study &middot; Security Incident Review</div>
+      <h1>The Vortex Breach</h1>
+    </div>
+    <div class="masthead-meta">
+      Vortex Adventure Parks<br>
+      Incident: 3 Mar 2026 &middot; Report: 18 Mar 2026<br>
+      Yr 10 Digital Technologies &middot; Lessons 07&ndash;14
+    </div>
+  </div>
+
+  <p class="lede">Vortex Adventure Parks runs six trampoline, laser-tag and mini-golf venues across the region. Read the case below, then use it to answer the questions at the end.</p>
+
+  <h2>Background</h2>
+  <p>Vortex started in 2016 as a single converted warehouse, built by a former gymnast who wanted somewhere kids could burn off energy that wasn't a shopping-centre food court. Ten years on it's six venues, pulling in something like four thousand visitors most weekends, more than half of them there for someone's birthday party. Head office sits behind the flagship Riverside venue: fifteen staff across finance, marketing and bookings, with a two-person team that keeps the Wi-Fi, the booking software and the till system running.</p>
+  <p>Every venue books through the same website, takes payment through the same provider, and reports into a shared regional server that also runs the arcade leaderboard &mdash; a bigger deal to the regulars than head office ever expected. Three years ago they launched a loyalty app, VortexPass. This year, a chatbot went live on the booking site that answers questions and processes small refunds on its own, which meant parents stopped waiting two days to get their money back after a rain-out. Most venue managers are promoted up from the party-host floor; none of them have a background in IT, and the two-person tech team is mostly who they call when something breaks.</p>
+
+  <h2>What happened</h2>
+  <p>On the morning of Tuesday 3 March, Callum &mdash; twenty-four, three months into running the Riverside venue day to day &mdash; took a call from a woman who introduced herself as Priya, from Head Office IT. She knew his name. She knew roughly how many bookings Riverside had for the coming weekend. She sounded rushed: the booking server had failed an overnight security check, and unless someone fixed it before midday, Saturday's six parties &mdash; forty-something kids between them &mdash; would have to be cancelled outright. She'd already texted a link to a diagnostic tool. Could he open it and follow a few prompts while she talked him through it?</p>
+  <p>Callum had never spoken to anyone from Head Office IT before. He didn't know there were only two of them, and he didn't know either of their names. He opened the link, installed what she called the diagnostic tool, and typed in the login he used every morning to open the booking terminal when it asked for it.</p>
+  <p>By early afternoon, every screen in the back office at Riverside &mdash; and at the two nearby venues that shared its server connection &mdash; showed the same message: files encrypted, payment demanded in cryptocurrency within seventy-two hours. The back-office computer, the admissions terminals and the guest Wi-Fi all sat on the one network, so whatever Callum had let in didn't have to work hard to spread. Three venues ran their weekend off printed booking sheets and a cash box. Nobody could say for certain whether anything had also been copied out before it was encrypted &mdash; the transaction logs that would have shown that were themselves locked.</p>
+
+  <h2>What the review turned up</h2>
+  <p class="lede" style="margin-top:-0.2rem;">Head office brought in an outside security consultant, Dana Okafor, to look over the whole operation once the immediate mess was dealt with. Her report ran to eleven pages. A few things from it:</p>
+  <div class="findings">
+    <p><strong>The admin portal</strong> that all six venues use to change prices and view bookings company-wide has run on the same password for four years. It doesn't ask for anything beyond that password to log in, and it never required more than eight characters to set one.</p>
+    <p><strong>VortexPass</strong> encrypts customer card details in its live database, which reassured everyone right up until Dana asked to see the nightly backup &mdash; a full copy of that same database, kept in plain text so it can be restored quickly if it's ever needed.</p>
+    <p><strong>The arcade machines'</strong> leaderboard software gets updated once or twice a year, walked between venues on the same USB stick and handed to whoever's rostered on and happens to be free.</p>
+    <p><strong>The server room</strong> at Riverside that holds the booking and leaderboard server has no backup power and no copy kept anywhere else. A storm cut power to the block for six hours last October; nothing was lost that time, mostly because nothing urgent happened to be booked during the outage.</p>
+    <p><strong>The new chatbot</strong> approves refunds under fifty dollars entirely on its own. Dana wanted it properly tested before anyone discussed raising that limit. Nobody had gotten around to arranging that yet.</p>
+    <p><strong>The storeroom door</strong> lock had been broken since January. A staff badge was supposed to be required to get in while it was being fixed. For most of those two months, it wasn't.</p>
+  </div>
+
+  <h2>What changed afterwards</h2>
+  <ul class="timeline">
+    <li><strong>The following Monday,</strong> head office sent every staff member an email asking them to be more careful about who they spoke to on the phone.</li>
+    <li><strong>That same week,</strong> Riverside and the two affected venues were restored from a backup taken a month earlier, once the tech team had confirmed it actually worked. No payment was made.</li>
+    <li><strong>A few days later,</strong> a firewall was installed on the head office network. Nobody got around to changing it from the password it arrived with.</li>
+    <li><strong>Within a fortnight,</strong> the tech team rebuilt each venue's network so guest Wi-Fi, the admissions terminals and the back office no longer share a connection.</li>
+    <li><strong>Around the same time,</strong> finance asked whether it was worth quietly setting aside a small budget for a payment like this in future, on the basis that it would probably be faster than waiting on a backup.</li>
+    <li><strong>Every account</strong> with access to the admin portal was switched to require a second step at login, not just a password.</li>
+    <li><strong>Head office</strong> also updated its password policy so that every login must be changed monthly. The minimum length and complexity requirements stayed exactly as they were.</li>
+    <li><strong>Three weeks after the incident,</strong> Dana ran an unannounced test call to each of the six venue managers, posing as Head Office IT. Four of the six gave up a login before the call ended.</li>
+  </ul>
+
+  <footer>Fictional organisation, prepared for classroom use &middot; Year 10 Digital Technologies</footer>
+
+</div>

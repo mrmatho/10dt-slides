@@ -39,7 +39,7 @@ li {
     border-left: 4px solid #3b82f6;
     background-color: rgba(59, 130, 246, 0.2);
     padding: 0.2rem 1rem 0.5rem 1rem;
-    color: #0a1019;
+    --uno: 'blue-800 dark:blue-200';
     line-height: 1.6;
     font-size: 1.25rem;
     margin: 10px;

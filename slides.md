@@ -27,6 +27,7 @@ transition: fade
 comark: true
 layout: default
 selectable: true
+zoom: 1.1
 ---
 
 # Welcome to Year 10 Digital Technologies
@@ -166,6 +167,11 @@ hide: false
 
 ---
 src: ./pages/14_viruses_and_malware.md
+hide: false
+---
+
+---
+src: ./pages/15_risk_mitigation_strategies.md
 hide: false
 ---
 
