@@ -90,7 +90,7 @@ An IRP usually includes:
 - Preparation: Set up policies, procedures, and resources.
 - Identification: Detect and confirm the incident.
 - Containment: Limit the damage and prevent it from spreading.
-- Review: Find the cause and prevent it from happening again.
+- Review and Respond: Find the cause and prevent it from happening again. Communicate with affected parties and stakeholders.
 
 ---
 layout: center
