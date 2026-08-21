@@ -54,7 +54,6 @@ A **risk** is the assessment of how likely a threat is to exploit a vulnerabilit
 ::right::
 
 
-
 ### Example
 
 Boris opens an email from an unknown sender and clicks a link.
@@ -101,7 +100,6 @@ zoom: 0.9
 # Threat types
 
 We classify cybersecurity threats into three main categories:
-
 
 ## Accidental threats
 

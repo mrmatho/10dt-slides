@@ -160,3 +160,13 @@ hide: false
 ---
 
 ---
+src: ./pages/13_applying_cryptography.md
+hide: false
+---
+
+---
+src: ./pages/14_viruses_and_malware.md
+hide: false
+---
+
+---
