@@ -176,3 +176,8 @@ hide: false
 ---
 
 ---
+src: ./pages/16_emerging_technologies.md
+hide: false
+---
+
+---
