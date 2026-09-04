@@ -6,7 +6,7 @@ hideInToc: false
 
 # Emerging Technologies
 
-Our next unit is focused on Emerging Technologies. In this unit, you will:
+Our next unit is focused on **Emerging Technologies**. In this unit, you will:
 
 - Learn about emerging technologies and their potential impact on society
 - Explore the ethical considerations and challenges associated with emerging technologies
@@ -65,9 +65,10 @@ zoom: 1.1
 
 ::left::
 
-**Brain-computer interfaces (BCIs)**
+**Computer Vision and Image Recognition**
 
-- Use of technology to create direct communication between the brain and external devices, such as prosthetics or computers
+- Use of machine learning to enable computers to interpret and understand visual information, such as object detection, facial recognition, or medical imaging
+
 
 **3D Bioprinting**
 
@@ -126,9 +127,41 @@ Identify the problem solving stage you would expect each of the following activi
 
 <v-clicks>
 
-**1. Analysis, 2. Development, 3. Evaluation, 4. Design**
+**1. Analysis 2. Development 3. Evaluation 4. Design**
 
 </v-clicks>
+
+---
+layout: center
+zoom: 1.2
+---
+
+# Reliable Research
+
+- The most important factor in the reliability of research is the **source** of the information
+- Reliable sources are those that are **credible, accurate, and unbiased**.
+- Reliable sources include:
+  - Academic journals and conference papers
+  - Government publications and reports
+  - Reputable news outlets and media organizations
+  - Industry reports and white papers from reputable companies
+- Unreliable sources include:
+  - Personal blogs and social media posts
+  - AI generated content
+  - Websites with a clear bias or agenda
+
+---
+layout: center
+zoom: 1.4
+---
+
+# Searching for Realiable Sources
+
+- Google Scholar (https://scholar.google.com/) - a search engine for academic papers and articles
+- Microsoft Academic (https://academic.microsoft.com/) - a search engine for academic papers and articles
+- Google News (https://news.google.com/) - a search engine for news articles from reputable sources
+
+> We are searching for information about emerging technologies, so the **date of the source** is very important. Anything before 2020 is too old to be useful for this unit. Check the date of the source before using it and use search filters to limit your results to recent sources.
 
 ---
 layout: two-cols
@@ -141,9 +174,10 @@ zoom: 1.1
 - This will not necessarily be the technology for your proof of concept
 - For your allocated technology, you will find:
   - 1 thing everyone should know about it
+  - 1 issue that might limit or prevent the use of this technology (in certain situations)
   - 2 examples of how it is already being used
   - 3 advantages this technology has over existing technologies
-  - 1 issue that might limit or prevent the use of this technology in certain situations
+
 
 At the end of the time, you will present your findings (on a single slide) to the class.
 
@@ -154,13 +188,11 @@ At the end of the time, you will present your findings (on a single slide) to th
 1. AI Agents
 2. Quantum Computing
 3. Autonomous Systems
-4. Wearable Technology
-5. Biotechnology
-6. Brain-computer interfaces (BCIs)
-7. 3D Bioprinting
-8. Internet of Things (IoT) and Home Automation
-9. Digital Twins
-10. *Propose an emerging technology not included*
-
+4. Biotechnology
+5. Computer Vision/Image Recognition
+6. 3D Bioprinting
+7. Internet of Things (IoT) and Home Automation
+8. Digital Twins
+9. *Propose an emerging technology not included*
 
 ---
