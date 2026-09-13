@@ -35,7 +35,8 @@ zoom: 1.1
 
 ::left::
 
-**AI Agents** 
+**AI Agents**
+
 - Use of generative AI to create autonomous agents that can perform tasks and make decisions without human intervention
 
 **Quantum Computing**

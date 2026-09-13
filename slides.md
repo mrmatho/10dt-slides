@@ -1,9 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: apple-basic
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+theme: light-icons
 # some information about your slides (markdown enabled)
 title: 10 Digital Technologies
 info: |
@@ -18,7 +15,6 @@ defaults:
   transition: fade
   zoom: 1.3
   class: ns-c-tight
-  selectable: true
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
