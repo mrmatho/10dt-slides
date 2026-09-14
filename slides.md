@@ -177,3 +177,8 @@ hide: false
 ---
 
 ---
+src: ./pages/17_idea_generation.md
+hide: false
+---
+
+---

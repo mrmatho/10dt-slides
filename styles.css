@@ -8,6 +8,10 @@ li {
     color: white;
 }
 
+.slidev-layout h1 + p {
+    opacity: 1;
+}
+
 /* Enhanced blockquote styling */
 .slidev-layout blockquote  {
     border-left: 4px solid #3b82f6;
