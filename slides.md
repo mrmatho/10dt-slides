@@ -1,8 +1,9 @@
 ---
 # try also 'default' to start simple
-theme: light-icons
+theme: default
 # some information about your slides (markdown enabled)
-title: 10 Digital Technologies
+title: Year 10 Digital Technologies
+titleTemplate: '%s - 10DT - Heathmont College'
 info: |
   ## Year 10 Digital Technologies
   Slides for the semester
@@ -13,8 +14,11 @@ defaults:
   layout: center
   hideInToc: true
   transition: fade
-  zoom: 1.3
+  zoom: 1.2
   class: ns-c-tight
+fonts: 
+  sans: "Outfit"
+  serif: "Public Sans"
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
@@ -181,4 +185,7 @@ src: ./pages/17_idea_generation.md
 hide: false
 ---
 
+---
+src: ./pages/18_feasibility_analysis.md
+hide: false
 ---
