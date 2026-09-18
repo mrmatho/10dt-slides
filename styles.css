@@ -63,7 +63,7 @@ strong {
 
 :where(.slidev-layout) {
     --uno: 'font-body text-secondary';
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 :where(.slidev-layout) :where(h1, h2, h3, h4, h5, h6) {

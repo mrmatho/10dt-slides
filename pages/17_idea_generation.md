@@ -72,6 +72,7 @@ We are exploring how the different context an emerging technology is applied to 
 
 ---
 layout: center
+zoom: 1.1
 ---
 
 # Practice Activity
@@ -87,6 +88,15 @@ Individually you will be allocated a context.
 **Step 4:** Review - are there any problems (or set of problems) that could be solved with an innovative application of emerging technologies? (5 mins)
 
 Once you have completed the cycle for your allocated context -  we will repeat for a context that you choose.
+
+**Emerging Technologies**: AI Agents,
+Quantum Computing, 
+Autonomous Systems, 
+Biotechnology,
+Computer Vision/Image Recognition,
+3D Bioprinting,
+Internet of Things (IoT) and Home Automation,
+Digital Twins
 
 ---
 layout: center

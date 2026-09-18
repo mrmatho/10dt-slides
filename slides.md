@@ -18,7 +18,7 @@ defaults:
   class: ns-c-tight
 fonts: 
   sans: "Outfit"
-  serif: "Public Sans"
+  serif: "Outfit"
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions

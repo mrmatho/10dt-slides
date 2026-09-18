@@ -17,14 +17,24 @@ layout: center
 
 # Feasibility Matrix
 
-| Factor | Not At All | Low | Medium | High |
-| --- | --- | --- | --- | --- |
-| Technical |  |  |  |  |
-| Financial |  |  |  |  |
-| Operational |  |  |  |  |
-| Legal |  |  |  |  |
-| **Overall Feasibility** |  |  |  |  |
+| Factor | Not At All | Low | Medium | High | Evidence |
+| --- | --- | --- | --- | --- | --- |
+| Technical |  |  |  |  |   |
+| Financial |  |  |  |  |  |
+| Operational |  |  |  |  |   |
+| Legal |  |  |  |  |   |
+| **Overall Feasibility** |  |  |  |  |   |
 
+<style>
+  .slidev-layout table {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slidev-layout th, .slidev-layout td {
+    border: 1px solid #ccc;
+  }
+</style>
 ---
 layout: center
 ---
@@ -87,3 +97,36 @@ layout: center
 - Provide a summary sentence - identifying the overall feasibility of your idea and whether it is worth pursuing further.
   - Include possible modifications to the idea that might improve feasibility.
 - Repeat for each of your ideas and compare results. 
+
+---
+layout: center
+zoom: 0.8
+---
+
+# Feasibility Matrix Example
+
+**Idea:** *Using AI Agents and Digital Twins to identify which students should be directed to which particular career pathways.*
+
+<v-clicks>
+
+| Factor | Not At All | Low | Medium | High | Evidence |
+| --- | --- | --- | --- | --- | --- |
+| Technical |  |  |  | ✅ | Much of this technology already exists  |
+| Financial |  |  | ✅ |  | The cost of gathering the data is a little unknown. Most other costs would be low. |
+| Operational |  |  |  | ✅ | Could fit into existing careers counselling structures without issue.  |
+| Legal |  |  | ✅ |  | Unclear the extent to which this use of data is completely legal. Would need further investigation  |
+| Ethical | | ✅ |  |  | Big questions around whether or not this is an acceptable use of people's data, as well as whether letting an AI contribute to big life decisions is a safe thing to do. |
+| **Overall Feasibility** |  |  | ✅ |  | Two issues still need to be resolved: whether it is OK to collect and use this data, and whether or not it is safe and ethical for people to trust AI with such big life decisions. |
+
+</v-clicks>
+
+<style>
+  .slidev-layout table {
+    width: 100%;
+    text-align: center;
+  }
+
+  .slidev-layout th, .slidev-layout td {
+    border: 1px solid #ccc;
+  }
+</style>
