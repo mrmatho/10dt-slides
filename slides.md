@@ -189,3 +189,10 @@ hide: false
 src: ./pages/18_feasibility_analysis.md
 hide: false
 ---
+
+---
+src: ./pages/19_planning_a_project.md
+hide: false
+---
+
+
