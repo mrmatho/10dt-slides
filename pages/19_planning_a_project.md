@@ -99,3 +99,15 @@ layout: two-cols-header
 
 Identify at least 3 subtasks and 2 milestones for this task. Write them on your mini-whiteboard.
 
+---
+layout: center
+---
+
+# Project Tasks
+
+| Analysis | Design | Develop | Evaluate |
+|---|---|---|---|
+| Pick an emerging tech | How's it going to work | Create a pitch presentation | Use peer feedback to evaluate your idea against criteria |
+| Match with a problem in a context | How's it going to look | Deliver your pitch | |
+| Feasibility analysis | | | |
+| Plan our project | | | |
