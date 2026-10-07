@@ -11,6 +11,39 @@ hideInToc: false
 layout: center
 ---
 
+# Consolidating our idea: Functional Requirements
+
+Now that we have:
+
+- Identified a problem in a context
+- Proposed a solution to the problem
+- Conducted a feasibility analysis of the solution
+
+we need to make sure we have a documented and clear understanding of exactly what our solution is going to do. This is called the **functional requirements** of the solution.
+
+---
+layout: center
+---
+
+# Functional Requirements
+
+A functional requirement is a specific behaviour or function that a solution must have in order to meet the needs of the user and solve the problem.
+
+Functional requirements should be clear, measurable, and testable.
+
+They describe what the solution should do, rather than how it should do it.
+
+| Example | Non-Example |
+| --- | --- |
+| The solution will analyse student data to identify strengths and weaknesses. | The solution will be easy to use. |
+| The solution will construct a "digital twin" of the student to provide detailed data to the AI model. | The solution will give students ideas for their future career. |
+| The AI model will predict a number of suitable career pathways for the student based on their data. | The solution will be innovative and unique. |
+| 
+
+---
+layout: center
+---
+
 # Design
 
 Designing digital solutions focuses on answering two core questions:

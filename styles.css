@@ -39,6 +39,11 @@ li {
     line-height: 1.2em;
 }
 
+.slidev-layout table th, .slidev-layout table td {
+    padding: 0.2em;
+    border-top: 1px solid #ccc;
+}
+
 .note {
     border-left: 4px solid #3b82f6;
     background-color: rgba(59, 130, 246, 0.2);
