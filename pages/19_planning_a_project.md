@@ -71,6 +71,7 @@ Throughout the project, key **milestones** occur:
 
 ---
 layout: two-cols-header
+zoom: 1.1
 ---
 
 # Example and Practice
@@ -111,3 +112,5 @@ layout: center
 | Match with a problem in a context | How's it going to look | Deliver your pitch | |
 | Feasibility analysis | | | |
 | Plan our project | | | |
+
+---

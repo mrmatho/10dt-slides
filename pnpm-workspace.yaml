@@ -5,3 +5,8 @@ shamefullyHoist: true
 # build scripts by default (`strictDepBuilds: true`), so allowlist it up-front.
 allowBuilds:
   playwright-chromium: true
+
+# Workaround for https://github.com/slidevjs/slidev/issues/2768 — magic-string
+# 1.4.3 breaks UnoCSS's transformer-directives (duplicated CSS fails the build).
+overrides:
+  'magic-string@^1': 1.4.2

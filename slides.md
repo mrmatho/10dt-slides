@@ -195,4 +195,9 @@ src: ./pages/19_planning_a_project.md
 hide: false
 ---
 
+---
+src: ./pages/20_designing_an_emerging_solution.md
+hide: false
+---
 
+---
