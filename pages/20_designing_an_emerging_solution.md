@@ -46,7 +46,7 @@ flowchart LR
 
 ---
 layout: two-cols-header
-zoom: 0.95
+zoom: 0.9
 ---
 
 # Functional Design Tools - Use Case Diagrams

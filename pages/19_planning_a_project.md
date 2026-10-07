@@ -112,5 +112,3 @@ layout: center
 | Match with a problem in a context | How's it going to look | Deliver your pitch | |
 | Feasibility analysis | | | |
 | Plan our project | | | |
-
----
