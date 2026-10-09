@@ -1,5 +1,6 @@
 ---
 layout: center
+hideInToc: false
 ---
 
 # Creating a Pitch
