@@ -166,10 +166,11 @@ The second core question in designing a solution is: How will the solution look?
 
 Visual design tools help to communicate the look and feel of a solution, including its layout, colour scheme, typography, and other visual elements.
 
-Two common visual design tools are:
+Common visual design tools are:
 
 - Wireframes
 - Mockups
+- Annotated Diagrams
 
 ---
 layout: center
@@ -217,6 +218,10 @@ layout: center
 # Visual Design Tools - Annotated Diagrams
 
 For representing physical solutions, annotated diagrams are a useful visual design tool. They provide a clear and detailed representation of the physical solution, including its key features and how they will look visually.
+
+- Draw the physical solution
+- Add labels (annotations) to explain key features and how they will look visually
+- Use arrows and lines to connect annotations to the relevant parts of the diagram
 
 
 ---
