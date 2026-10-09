@@ -154,3 +154,96 @@ layout: center
   - pseudocode
 
 4. Use your tool to create a functional design for your solution. Make sure to include all relevant processes, decision points, and/or interactions with users or other systems.
+
+---
+layout: center
+hideInToc: false
+---
+
+# Visual Design Tools
+
+The second core question in designing a solution is: How will the solution look? 
+
+Visual design tools help to communicate the look and feel of a solution, including its layout, colour scheme, typography, and other visual elements.
+
+Two common visual design tools are:
+
+- Wireframes
+- Mockups
+
+---
+layout: center
+---
+
+# Visual Design Tools - Wireframes
+
+A wireframe is a low-detail visual representation of a user interface. It is used to communicate the **layout and structure** of a solution, without focusing on the specific visual design elements.
+
+Wireframes are often used in the early stages of design to quickly explore different layout options and gather feedback from stakeholders.
+
+Common tools for creating wireframes include:
+
+- Figma
+- Google Drawings
+- Microsoft PowerPoint
+- Paint
+
+---
+layout: center
+---
+
+# Visual Design Tools - Wireframe Example
+
+<img src="/wireframe.png" alt="Wireframe Example" style="max-width: 70%; height: auto; float:right; margin-left: 20px;">
+
+- Clear labels
+- Shows the layout and structure of the solution
+- No specific visual design elements (e.g. colours, fonts, images)
+
+---
+layout: center
+---
+
+# Visual Design Tools - Mockups
+
+A mockup is a more detailed visual representation of the proposed user interface. It adds colours, fonts, images, branding and other visual design elements to the wireframe, providing a more realistic preview of the final solution.
+
+<img src="/mockup.png" alt="Mockup Example" style="max-width: 70%; height: auto;  margin-left: 20px;">
+
+---
+layout: center
+---
+
+# Visual Design Tools - Annotated Diagrams
+
+For representing physical solutions, annotated diagrams are a useful visual design tool. They provide a clear and detailed representation of the physical solution, including its key features and how they will look visually.
+
+
+---
+layout: two-cols-header
+zoom: 0.9
+---
+
+# Applying a Visual Design Tool to your Solution
+
+You can choose to either create the visual design of a user interface, or of a physical solution. You do not need to do both.
+
+::left:: 
+
+## Wireframes and mockups 
+
+- **Identify** a part of your solution that will have some kind of user interface (e.g. a website, app, or dashboard)
+- **Create two simple wireframes** for the user interface, showing different layout options
+- Choose one wireframe (that you think works best) and **create a mockup** of the user interface, adding colours, fonts, images, branding and other visual design elements.
+
+> Your wireframes can be hand-drawn (then photographed) or created using a digital tool.
+>
+> Your mockup can be created using a digital tool, such as PowerPoint, Google Drawings or Canva.
+
+::right::
+
+# Annotated Diagrams
+
+- **Identify** a part of your solution where the physical design is important (e.g. a physical device, a piece of equipment, or a product)
+- **Create** two or more sketches to represent ideas for the visual look of your physical solution. 
+- **Draw** a detailed, annotated diagram of your chosen design, showing key features and how they will look visually. 
