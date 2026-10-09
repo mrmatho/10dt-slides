@@ -19,7 +19,7 @@ Your pitch should include at least one slide for each of these:
 
 - **Problem Statement**: Clearly define the problem your solution addresses.
 - **Emerging Technology Employed**: Describe the emerging technology (or technologies) you are using and how it contributes to your solution.
-- **Solution Overview**: Clarify the functional requirements of your solution, and how they would adress the problem.
+- **Solution Overview**: Clarify the functional requirements of your solution, and how they would address the problem.
 - **Feasibility** (if completed): Discuss your findings from the feasibility analysis, including any potential challenges and how you could overcome them.
 - **Risk Analysis**: Discuss any potential risks associated with your solution, and how you plan to mitigate them.
 - **Functional Design**: Present your functional design tools, with a brief explanation.
