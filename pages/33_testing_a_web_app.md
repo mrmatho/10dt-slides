@@ -107,14 +107,14 @@ layout: center
 
 # How to conduct usability testing
 
-```mermaid
-flowchart LR
-    S1[1. Choose a task<br>for the user to try] --> S2[2. User attempts<br>the task]
-    S2 --> S3[3. Observe and record<br>any struggles]
-    S3 --> S4[4. Ask the user<br>follow-up questions]
-    S4 --> S5[5. Usability problem<br>or functional bug?]
-    S5 --> S6[6. Improve based<br>on user feedback]
-```
+<div class="grid grid-cols-3 gap-3 my-4">
+<div class="border rounded p-3"><b>1.</b> Choose a task for the user to try</div>
+<div class="border rounded p-3"><b>2.</b> User attempts the task</div>
+<div class="border rounded p-3"><b>3.</b> Observe and record any struggles</div>
+<div class="border rounded p-3"><b>4.</b> Ask the user follow-up questions</div>
+<div class="border rounded p-3"><b>5.</b> Decide: usability problem or functional bug?</div>
+<div class="border rounded p-3"><b>6.</b> Improve based on user feedback</div>
+</div>
 
 **Example questions for step 4:**
 

@@ -136,10 +136,14 @@ CSV files are plain text, so you can't change one row in place. Instead:
 
 ```mermaid
 flowchart LR
-    A[(Original CSV file)] -- "1. Open in read mode 'r'" --> B[Python list<br>in memory]
-    B -- "2. Loop to find the unique ID<br>and update or delete it" --> C[Updated<br>Python list]
-    C -- "3. Open in write mode 'w'" --> D[(Updated CSV file)]
+    A[(CSV file)] -- "1. read 'r'" --> B[List in memory]
+    B -- "2. find ID,<br>change row" --> C[Updated list]
+    C -- "3. write 'w'" --> D[(CSV file)]
 ```
+
+1. **Read** the whole file into a Python list (`mode='r'`).
+2. **Loop** to find the row with the unique ID, then update or remove it.
+3. **Write** the whole list back to the file (`mode='w'`).
 
 Write mode **wipes the old file** and completely overwrites it with the new list.
 

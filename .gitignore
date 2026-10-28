@@ -6,3 +6,5 @@ dist
 .remote-assets
 components.d.ts
 temp
+.playwright-mcp
+.playwright-mcp/console-2026-10-28T04-10-57-057Z.log
