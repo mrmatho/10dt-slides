@@ -26,6 +26,7 @@ transition: fade
 # enable Comark Syntax: https://comark.dev/syntax/markdown
 comark: true
 layout: default
+lineNumbers: true
 selectable: true
 zoom: 1.1
 ---
@@ -210,3 +211,62 @@ src: ./pages/22_evaluating_the_pitch.md
 hide: false
 ---
 
+---
+src: ./pages/23_dynamic_web_apps.md
+hide: false
+---
+
+---
+src: ./pages/24_HTTP_requests_and_responses.md
+hide: false
+---
+
+---
+src: ./pages/25_flask_templates.md
+hide: false
+---
+
+---
+src: ./pages/26_flask_forms.md
+hide: false
+---
+
+---
+src: ./pages/27_storing_user_input.md
+hide: false
+---
+
+---
+src: ./pages/28_crud_web_apps.md
+hide: false
+---
+
+---
+src: ./pages/29_planning_a_web_app.md
+hide: false
+---
+
+---
+src: ./pages/30_designing_a_web_app.md
+hide: false
+---
+
+---
+src: ./pages/31_data_persistence.md
+hide: false
+---
+
+---
+src: ./pages/32_adding_and_modifying_records.md
+hide: false
+---
+
+---
+src: ./pages/33_testing_a_web_app.md
+hide: false
+---
+
+---
+src: ./pages/34_evaluating_a_web_app.md
+hide: false
+---

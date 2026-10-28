@@ -60,6 +60,25 @@ strong {
     padding: 0.1rem 0.3rem;
 }
 
+/* Low-key source/licence credit, e.g. on a lesson's title slide.
+   Use as <div class="attribution"> with a blank line inside so the
+   markdown still renders. */
+.slidev-layout .attribution {
+    --uno: 'mt-8 px-3 py-2 rounded text-xs bg-gray-500/10 text-gray-500 dark:text-gray-400';
+    max-width: 40rem;
+    line-height: 1.4;
+}
+
+.slidev-layout .attribution p {
+    margin: 0;
+}
+
+.slidev-layout .attribution a {
+    color: inherit;
+    text-decoration: underline;
+    border-bottom: none;
+}
+
 .slidev-layout .col-left {
     padding-right: 1rem;
 }

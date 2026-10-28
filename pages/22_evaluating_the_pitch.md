@@ -36,9 +36,9 @@ layout: center
 
 Your report needs to include:
 
-1. An evaluation of your pitch against the provided criteria. This should include both a summary of the feedback received and your own evaluation. 
+1. An evaluation of your pitch against the provided criteria. This should include both a summary of the feedback received and your own evaluation.
 
-    - At least a sentence for each of the criteria.
+- At least a sentence for each of the criteria.
 
 2. A description of the 2-3 changes you made to your pitch based on the feedback received, and why you made those changes. Also justify why some other suggested changes were not implemented.
 3. A summary of how your evaluation against criteria would change since making the improvements. (1 paragraph)
