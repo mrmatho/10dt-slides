@@ -28,12 +28,12 @@ comark: true
 layout: default
 lineNumbers: true
 selectable: true
-zoom: 1.1
+zoom: 1.05
 ---
 
 # Welcome to Year 10 Digital Technologies
 
-<Toc minDepth = '1' maxDepth='3' columns="2" />
+<Toc minDepth = '1' maxDepth='3' columns="3" />
 
 ---
 layout: default

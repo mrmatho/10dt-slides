@@ -173,7 +173,7 @@ layout: center
 
 ---
 layout: center
-zoom: 0.9
+zoom: 0.98
 ---
 
 # Guided practice step 1: Building the HTML form
@@ -228,7 +228,7 @@ zoom: 0.9
 
 # Guided practice step 2: Receiving form data in Flask
 
-```python {all|5|7|9|10-13|14-17|18|19|20}
+```python
 from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
@@ -249,9 +249,11 @@ def index():
         address_book.append(new_entry)
         return redirect("/")
     return render_template("index.html", contacts=address_book)
+
+...
 ```
 
-Finish with the usual `if __name__ == '__main__': app.run(debug=True)`, then run it in Thonny and open `http://127.0.0.1:5000`.
+Run it in Thonny and open `http://127.0.0.1:5000`.
 
 ---
 layout: center

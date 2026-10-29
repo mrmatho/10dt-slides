@@ -146,7 +146,7 @@ layout: center
 
 <v-click>
 
-- **4xx** codes mean a problem with the client's request. **5xx** codes mean a problem on the server.
+- **4xx** codes mean a problem with the client's request. **5xx** codes mean a problem on the server. **2xx** codes mean the request was successful.
 - In Flask, if the Python code in your function causes an error, the server sends back a **500**.
 
 </v-click>
@@ -184,6 +184,12 @@ The browser uses the URL to build the HTTP request it sends to the server.
 - <span class="text-orange-500">**Port**</span> – `5000`
 - <span class="text-purple-500">**Path (fixed part)**</span> – `/profile/`
 - <span class="text-red-500">**Path parameter (variable part of the path)**</span> – `Charlie`
+
+<v-click> 
+
+> **Note:** The fixed part and variable part of the path are decided based on the route you define - these could be in any order and could have multiple variable parts. 
+
+</v-click>
 
 ---
 layout: center
@@ -435,6 +441,8 @@ if __name__ == '__main__':
     app.run()
 ```
 
+> If you are waiting for others to finish, modify the code to show hours and minutes instead of just hours - for example: `90 min is 1 hr and 30 min.`
+
 ---
 layout: center
 ---
@@ -468,6 +476,7 @@ Complete activities from the **Lesson 2** section of the *Python web app workboo
 
 Use **Thonny** to write and run your Flask apps. If you get a 500 error, check the traceback in Thonny's **Shell** panel.
 
+>**Tip:** Rather than needing to rewrite the *bootstrap* code for every Flask app, you can create a copy of the hours coverter app and modify it for the new app. 
 ---
 layout: center
 ---
