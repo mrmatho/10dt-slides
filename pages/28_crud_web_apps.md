@@ -280,7 +280,7 @@ layout: center
 | 5. A user must be able to edit a review they previously submitted. | <span v-click>**F**</span>       |
 
 ---
-layout: center
+layout: two-cols
 ---
 
 # Summary
@@ -289,6 +289,19 @@ layout: center
 - A **functional requirement** describes what the system must do, written as a testable user action.
 - A **non-functional requirement** describes how well the system performs, with a measurable standard.
 - Requirements that cannot be tested must be revised before they can guide development.
+
+::right::
+
+## Planning your own CRUD web app
+
+### Independent Application
+
+- Open Project Documentation and complete Lesson 6:
+   - Identify your app idea and target audience
+   - List your functional and non-functional requirements
+   - Write your data dictionary
+   - Complete the reflection
+
 
 ---
 layout: center
