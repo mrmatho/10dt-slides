@@ -1,4 +1,5 @@
 ---
+routeAlias: crud-apps
 layout: center
 hideInToc: false
 ---

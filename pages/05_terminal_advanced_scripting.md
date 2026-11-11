@@ -1,4 +1,5 @@
 ---
+routeAlias: advanced-scripting
 theme: default
 title: Leveling Up Scripts
 hideInToc: false

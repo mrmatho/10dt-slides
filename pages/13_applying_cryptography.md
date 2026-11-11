@@ -1,4 +1,5 @@
 ---
+routeAlias: applying-cryptography
 layout: center
 hideInToc: false
 ---

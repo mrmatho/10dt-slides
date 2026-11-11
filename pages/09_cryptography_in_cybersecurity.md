@@ -1,4 +1,5 @@
 ---
+routeAlias: cryptography
 title: Cryptography in Cybersecurity
 hideInToc: false
 ---

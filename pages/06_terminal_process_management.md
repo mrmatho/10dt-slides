@@ -1,4 +1,5 @@
 ---
+routeAlias: process-management
 theme: default
 title: Process Management
 hideInToc: false

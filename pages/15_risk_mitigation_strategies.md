@@ -1,4 +1,5 @@
 ---
+routeAlias: risk-mitigation
 title: Risk Mitigation Strategies
 hideInToc: false
 ---

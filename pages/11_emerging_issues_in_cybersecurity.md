@@ -1,4 +1,5 @@
 ---
+routeAlias: emerging-cyber-issues
 theme: default
 title: Emerging Issues in Cybersecurity
 hideInToc: false

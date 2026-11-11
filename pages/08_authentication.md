@@ -1,4 +1,5 @@
 ---
+routeAlias: authentication
 title: Authentication - Passwords, Passphrases and MFA
 hideInToc: false
 ---

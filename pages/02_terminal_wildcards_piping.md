@@ -1,4 +1,5 @@
 ---
+routeAlias: wildcards-piping
 theme: default
 title: Terminal Wildcards, Redirection and Piping
 hideInToc: false

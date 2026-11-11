@@ -1,4 +1,5 @@
 ---
+routeAlias: terminal-tools
 theme: default
 title: Lesson 3 - Tools Worth Knowing
 ---

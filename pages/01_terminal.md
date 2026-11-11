@@ -1,4 +1,5 @@
 ---
+routeAlias: terminal-basics
 theme: default
 title: Navigating and Managing Files
 hideInToc: false

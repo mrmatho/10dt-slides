@@ -1,4 +1,5 @@
 ---
+routeAlias: designing-web-app
 layout: center
 hideInToc: false
 ---
@@ -23,14 +24,14 @@ Draw and label the missing data flows in the system context diagram for a user s
 
 ```mermaid
 flowchart LR
-    U([User]) ~~~ A[Web Application]
+    U[User] ~~~ A((Web Application))
 ```
 
 <v-click>
 
 ```mermaid
 flowchart LR
-    U([User]) -- "Post text and heading" --> A[Web Application]
+    U[User] -- "Post text and heading" --> A((Web Application))
     A -- "Confirmation message" --> U
 ```
 

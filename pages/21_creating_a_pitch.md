@@ -1,4 +1,5 @@
 ---
+routeAlias: creating-pitch
 layout: center
 hideInToc: false
 ---

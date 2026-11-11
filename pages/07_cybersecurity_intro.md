@@ -1,4 +1,5 @@
 ---
+routeAlias: cybersecurity-intro
 theme: default
 title: Cybersecurity - Introduction
 hideInToc: false

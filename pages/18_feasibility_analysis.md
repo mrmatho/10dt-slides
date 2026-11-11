@@ -1,4 +1,5 @@
 ---
+routeAlias: feasibility
 layout: cover
 hideInToc: false
 ---

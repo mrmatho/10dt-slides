@@ -1,4 +1,5 @@
 ---
+routeAlias: flask-templates
 layout: center
 hideInToc: false
 ---

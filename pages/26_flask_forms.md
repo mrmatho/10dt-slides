@@ -1,4 +1,5 @@
 ---
+routeAlias: flask-forms
 layout: center
 hideInToc: false
 ---

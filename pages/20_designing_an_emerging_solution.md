@@ -1,4 +1,5 @@
 ---
+routeAlias: solution-design
 layout: cover
 hideInToc: false
 ---

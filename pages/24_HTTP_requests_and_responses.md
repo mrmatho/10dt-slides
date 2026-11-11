@@ -1,4 +1,5 @@
 ---
+routeAlias: http-requests
 layout: center
 hideInToc: false
 ---

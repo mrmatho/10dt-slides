@@ -1,4 +1,5 @@
 ---
+routeAlias: idea-generation
 layout: cover
 hideInToc: false
 ---

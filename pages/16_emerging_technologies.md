@@ -1,4 +1,5 @@
 ---
+routeAlias: emerging-tech
 layout: center
 zoom: 1.2
 hideInToc: false

@@ -1,4 +1,5 @@
 ---
+routeAlias: network-security
 layout: center
 hideInToc: false
 ---

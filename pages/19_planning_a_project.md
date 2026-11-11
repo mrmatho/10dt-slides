@@ -1,4 +1,5 @@
 ---
+routeAlias: project-planning
 layout: cover
 hideInToc: false
 ---

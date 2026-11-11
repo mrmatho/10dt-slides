@@ -1,4 +1,5 @@
 ---
+routeAlias: phishing
 theme: default
 title: Phishing and Social Engineering
 hideInToc: false

@@ -1,4 +1,5 @@
 ---
+routeAlias: dynamic-web-apps
 layout: center
 hideInToc: false
 ---

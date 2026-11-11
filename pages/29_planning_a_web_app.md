@@ -1,4 +1,5 @@
 ---
+routeAlias: planning-web-app
 layout: center
 hideInToc: false
 ---

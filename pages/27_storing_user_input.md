@@ -1,4 +1,5 @@
 ---
+routeAlias: storing-input
 layout: center
 hideInToc: false
 ---

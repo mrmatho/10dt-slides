@@ -1,4 +1,5 @@
 ---
+routeAlias: simple-scripting
 theme: default
 title: Lesson 4 - Simple Scripting
 ---
