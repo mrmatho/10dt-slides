@@ -2,6 +2,10 @@ li {
     margin-bottom: 0.5em;
 }
 
+pre, code {
+    font-variant-ligatures: none;
+}
+
 .slidev-layout th {
     font-weight: bold;
     background-color: #777;
