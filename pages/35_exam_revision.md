@@ -45,11 +45,11 @@ The exam will cover essentially everything we worked on this semester.
 
 ::left::
 
-- Terminal
+- **Terminal**
   - Recalling basic commands
   - Reading and interpreting a terminal script
   - Advantages and disadvantages of using the terminal
-- Cybersecurity
+- **Cybersecurity**
   - Threats, vulnerabilities, and risks
   - Security controls
   - Websites and URLs
@@ -57,13 +57,28 @@ The exam will cover essentially everything we worked on this semester.
 
 ::right::
 
-- Emerging Technologies
+- **Emerging Technologies**
   - What makes a technology "emerging"?
   - Applying emerging technologies to a scenario
   - Ethical and social implications of emerging technologies
   - Problem Solving Methodology (Analysis, Design, Implementation, Evaluation)
-- Web Applications
+- **Web Applications**
   - HTTP basics (GET, POST, Response codes)
   - CRUD operations and routing processes
   - Templates and logic in web applications
   - Testing and debugging web applications  
+
+---
+layout: center
+---
+
+# Revision Strategies
+
+- The slides have all the content:
+  - Use the slides to generate questions
+  - Identify anything you need to memorise vs ideas you need to apply
+- Questions are better than notes
+  - Teacher supplied questions
+  - Generate your own questions
+    - Thinking about what questions you think could be on the exam
+    - Use tools to generate questions (e.g. Quizlet, ChatGPT)
